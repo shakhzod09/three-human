@@ -1,3 +1,4 @@
+
 .container{
     padding: 20px 30px;
 
@@ -18,4 +19,84 @@
     
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
 
+.navbar {
+  background-color: rgb(63, 50, 50);
+}
+
+.navbar .contanier {
+  width: 70%;
+  padding: 10px 150px;
+}
+
+.navbar .nav {
+  background-color: #333;
+  padding: 10px 150px;
+  display: flex;
+}
+
+.nav li a {
+  color: #fff;
+  margin-right: 30px;
+  font-weight: 700;
+}
+
+.home-section .box-1 {
+  text-align: center;
+  background-image: url(../images/foto.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.home-section .hero-top {
+  padding: 10px 40px;
+  color: rgb(245, 237, 7);
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+.home-section .el-1 {
+  padding-top: 200px;
+}
+
+.home-section h3 {
+  color: blanchedalmond;
+  background-color: chocolate;
+  padding-top: 0px;
+  font-size: 2.3rem;
+}
+
+.home-section .el-2 p {
+  background-color: hotpink;
+  color: black;
+  padding: 0px;
+  font-size: 2rem;
+}
+
+.home-section .el-3 {
+  background-color: brown;
+  color: #fff;
+  padding-top: 0px;
+  font-size: 2rem;
+}
+
+.home-section .box-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+footer {
+  background-color: blue;
+  color: black;
+  padding: 10px 0px;
+  font-size: 1.5rem;
+}
