@@ -1,0 +1,21 @@
+.container{
+    padding: 20px 30px;
+
+}
+
+.container h1, p{
+    text-align: center;
+}
+
+.container .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .el-2{
+    padding: 20px 30px;
+    
+}
+
+
